@@ -1,0 +1,27 @@
+#a{
+	width: 500px;
+	height: 250px;
+	overflow: hidden;
+}
+#a h2{
+	color: black;
+	background: white;
+	position: absolute;
+	margin: 50px 0 0 0;
+	-webkit-transition: color 1s, background 1s;
+	z-index: 2;
+}
+#a h2:hover{
+	color: white;
+	background: black;
+}
+#a img{
+	-webkit-transition: transform 2s; 
+}
+#a img:hover{
+	-moz-transform: scale(1.5); /* Для Firefox */
+    -ms-transform: scale(1.5); /* Для IE */
+    -webkit-transform: scale(1.5); /* Для Safari, Chrome, iOS */
+    -o-transform: scale(1.5); /* Для Opera */
+    transform: scale(1.5);
+}
