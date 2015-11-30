@@ -1,0 +1,200 @@
+body{
+margin: 0;
+font: 18px open sans;	
+}
+
+#header h1{
+font-size: 350%;	
+margin: 0;  	
+}
+
+#header{
+color: white;
+background: black;
+padding: 0 0 10px 75px;	
+}
+#header p{
+margin: 0;	
+font-size: 75%;
+}
+#nav li{
+display: inline;	
+}
+#nav a{
+color: grey;
+border: 2px solid gray;
+padding: 5px 0 5px 0;
+width: 100px;
+display: inline-block;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
+-webkit-transition: color 1s, border 1s, border-radius 1s;
+}
+#nav a:hover{
+color: black;
+border: 2px solid black;
+border-radius: 8px;	
+}
+#lipsum{
+width: 50%;	
+float: left;
+}
+#kartinka{
+width: 50%;	
+float: right;
+}
+#lipsum h2{
+font-size: 200%;	
+}
+#margin{
+margin: 0 6% 0 6%;
+overflow: hidden;	
+}
+
+#parallax {
+	padding: 100px 200px;
+	margin: 50px 0;
+	background: url(parallax.jpg) fixed;
+	text-align: center;
+	color:white;	
+}
+#parallax a{
+color: #800000;
+border: 2px solid black;
+padding: 5px 0;
+width: 100px;
+display: inline-block;
+text-align: center;
+text-decoration: none;
+border-radius: 5px;
+-webkit-transition: color 1s, border 1s, border-radius 1s;
+}
+#parallax a:hover{
+color: red;
+border: 2px solid grey;
+border-radius: 8px;
+}
+
+.a {
+	overflow: hidden;
+	width: 500px;
+	height: 250px;
+	margin: 0 0 15px 0;
+	
+}
+.a a{
+	display: inline-block;
+}
+
+.a h2{
+	background: black;
+	color: white;
+	margin: 45px 0 0 0;
+	position: absolute;
+	z-index: 99;
+	padding: 10px;
+	font-weight: 1000;
+	-webkit-transition: background 1s, color 1s;
+}
+.a h2:hover{
+	background: white;
+	color: black;
+}
+.a img{
+	-webkit-transition: transform 2s;
+}
+
+.a img:hover {
+    -moz-transform: scale(1.5); /* Для Firefox */
+    -ms-transform: scale(1.5); /* Для IE */
+    -webkit-transform: scale(1.5); /* Для Safari, Chrome, iOS */
+    -o-transform: scale(1.5); /* Для Opera */
+    transform: scale(1.5);
+   }
+   
+#banner p{
+	font-size: 12px;   
+	   }
+#banner{
+	width: 1200px;
+overflow: hidden;
+margin: 0 auto 0 auto;
+	
+}
+.grey{
+	color: grey;	   
+	   }
+ #bannerA{
+	height: 350px;
+	width: 500px;
+float: right;
+margin-right: 10px;	
+   }
+   
+   #bannerb{
+	 height: 350px;
+	width: 500px; 
+float: left	
+   }
+   #bannerc{
+	   height: 350px;
+	width: 500px;
+	float: right;
+	margin-right: 10px;	
+   }
+   #bannerd{
+	   height: 350px;
+	width: 500px;
+	float: left;
+   }
+   #footer li{
+	display: inline-block;	
+   }
+   #footer  h2{
+color: white;
+font-weight: 1000;
+margin: 0;
+text-align: center;
+   }
+   #footer{
+	   background: black;
+	   padding: 10px;
+   }
+   #footer a{
+	color: white;
+	text-decoration: none;
+	-webkit-transition: color 1s;
+	}
+	#footer a:hover{
+	color:red;	
+	}
+	#bottonNav{
+	margin: 0 auto 0 auto;
+	width: 800px;
+	}
+	#bottonNav ul{
+		padding: 0;
+	}
+
+	.border{
+	border-right: 2px solid white ;	
+	width: 150px;
+	text-align: center;
+	}
+	#border{
+	width: 150px;
+	text-align: center;
+	}
+		#footer p{
+		color: gray;
+		font-weight: bold;
+		text-align: center;
+	}
+	#footer #grey{
+		color: grey;
+		-webkit-transition: color 1s;
+	}
+	#footer #grey:hover{
+		color:red;
+	}
